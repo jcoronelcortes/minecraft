@@ -1,10 +1,4 @@
-# Servidor
-
-## Indice
-* [Archivo server.properties](#archivo-serverproperties)
-* [Archivo spigot.yml](#archivo-spigotyml)
- 
-### Archivo server.properties
+# Archivo server.properties
 
 * **enable-command-block**
 >Permite activar (true) o desactivar (false) los bloques de comando en el servidor.
@@ -26,12 +20,3 @@
 
 * **logs-ip**
 >Cuando se establece en true, las direcciones IP de los jugadores se mostrarán en la consola del servidor al conectarse. Si se establece en false, las IPs se ocultan, lo que ayuda a la privacidad de los jugadores.
-
-
-### Archivo spigot.yml
-
-* **settings.log-villager-deaths**
->Registra en la consola cada vez que un aldeano muera, registrando información como la hora del evento, el aldeano involucrado y la causa de la muerte (ej: ataque de un monstruo, un jugador, ahogamiento, etc.).
-
-* **settings.log-named-deaths**
->Registra en la consola información sobre cada muerte de un jugador en el servidor.
