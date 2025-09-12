@@ -20,3 +20,5 @@
 * **/gamemode creative**
 >El modo Creativo en Minecraft es un modo de juego que libera al jugador de las restricciones de supervivencia, permitiéndole volar, acceder a recursos ilimitados de todos los bloques y objetos, y ser invencible. Este modo es ideal para centrarse en la construcción libre y la experimentación, ya que elimina la necesidad de alimentarse, la presencia de enemigos hostiles y el peligro de la muerte.
 
+* **/gamemode spectator**
+>Es un modo de juego que permite al jugador volar sin interactuar con el mundo, atravesar bloques y observar a otros jugadores y entidades desde cualquier punto de vista.
