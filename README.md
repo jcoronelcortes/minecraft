@@ -16,4 +16,4 @@ Un UUID (Identificador Único Universal) es un código alfanumérico permanente 
 * [Comandos basicos](basico/basico.md)
 
 ## Plugins
-* [Multiverse-Core](basico/multiverse_core.md)
+* [Multiverse-Core](plugins/multiverse_core.md)
