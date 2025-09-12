@@ -17,3 +17,4 @@ Un UUID (Identificador Único Universal) es un código alfanumérico permanente 
 
 ## Plugins
 * [Multiverse-Core](plugins/multiverse_core.md)
+* [Skins Restorer](plugins/skins_restorer.md)
