@@ -36,3 +36,19 @@ Para definir el lugar donde seimpre aparecera el jugador al ser teletransportado
 
 * **/mv create [nombre_nuevo_mundo] normal**
 >Permite crear un nuevo mundo en tu servidor. Este comando requiere especificar un nombre para el mundo y su tipo (como "normal", "nether" o "end").
+
+
+## Configuracion de los archivos del plugin
+
+### worlds.yml
+
+El archivo worlds.yml es el archivo de configuración principal del plugin Multiverse-Core para Minecraft, que almacena información detallada sobre cada mundo que has creado o importado en tu servidor. Este archivo guarda datos como los nombres de los mundos, sus coordenadas, el tipo de generación, la semilla utilizada, el bioma y la configuración de las entidades, entre otros aspectos. 
+
+Las siguientes configuraciones son recomendadas para mundos de 'Spawn' o 'Lobby':
+
+* **[nombre_mundo].pvp:** Permite habilitar (true) o deshabilitar (false) que los jugadores se puedan pegar en el mundo.
+
+* **[nombre_mundo].allowWeather:** Permite habilitar (true) o deshabilitar (false) la lluvia y tormentas.
+
+* **[nombre_mundo].difficulty:** Establece la dificultad de un mundo específico en tu servidor de Minecraft. Este ajuste, que puede ser pacífico (peaceful), fácil (easy), normal o difícil (hard), determina el comportamiento de los mobs hostiles y los efectos de la dificultad en el juego para ese mundo en particular. 
+
