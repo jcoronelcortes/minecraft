@@ -1,8 +1,8 @@
 # Servidor
 
 ## Indice
-* [Archivo server.properties](#archivo-server.properties)
-* [Archivo spigot.yml](#archivo-spigot.yml)
+* [Archivo server.properties](#archivo-server-properties)
+* [Archivo spigot.yml](#archivo-spigot-yml)
  
 ### Archivo server.properties
 
