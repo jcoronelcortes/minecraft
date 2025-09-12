@@ -40,6 +40,8 @@ Para definir el lugar donde seimpre aparecera el jugador al ser teletransportado
 
 ## Configuracion de los archivos del plugin
 
+Cada vez que se realizan cambios a los archivos del servidor se debe ejecutar el comando '**/mv reload**' para que el servidor tome los nuevos cambios realizados en los archivos de configuracion.
+
 ### worlds.yml
 
 El archivo worlds.yml es el archivo de configuración principal del plugin Multiverse-Core para Minecraft, que almacena información detallada sobre cada mundo que has creado o importado en tu servidor. Este archivo guarda datos como los nombres de los mundos, sus coordenadas, el tipo de generación, la semilla utilizada, el bioma y la configuración de las entidades, entre otros aspectos. 
@@ -52,3 +54,4 @@ Las siguientes configuraciones son recomendadas para mundos de 'Spawn' o 'Lobby'
 
 * **[nombre_mundo].difficulty:** Establece la dificultad de un mundo específico en tu servidor de Minecraft. Este ajuste, que puede ser pacífico (peaceful), fácil (easy), normal o difícil (hard), determina el comportamiento de los mobs hostiles y los efectos de la dificultad en el juego para ese mundo en particular. 
 
+* **[nombre_mundo].hunger:** Establece si los jugadores pierden hambre (false) o no (true).
