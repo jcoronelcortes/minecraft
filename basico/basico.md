@@ -39,8 +39,8 @@ El comando **'/time set [valor]'** permite cambair el tiempo para hacer de dia o
 
 ## Reglas (Game rules)
 
-* **/gamerule domobspawning [true o false]**
->Controla si las criaturas (mobs) se generan de forma natural en el mundo del jugador. Al establecerla en false con el comando /gamerule doMobSpawning false, se impide que aparezcan mobs hostiles, pacíficos y neutrales de forma automática, y al establecerla en true, se permite que vuelvan a aparecer.
+* **/gamerule doMobSpawning [true o false]**
+>Controla si las criaturas (mobs) se generan de forma natural en el mundo del jugador. Al establecerla en false con el comando **'/gamerule doMobSpawning false'**, se impide que aparezcan mobs hostiles, pacíficos y neutrales de forma automática, y al establecerla en true, se permite que vuelvan a aparecer.
 
 * **/gamerule doDaylightCycle [true o false]**
 >Controla si el ciclo de día y noche está activo o no. Si está establecida en true (verdadero), el sol y la luna se moverán normalmente, y el ciclo día-noche transcurrirá. Si se establece en false (falso), el sol se detendrá en una posición fija, manteniendo una hora constante y evitando la aparición de la mayoría de los mobs hostiles.
