@@ -23,6 +23,6 @@ Un UUID (Identificador Único Universal) es un código alfanumérico permanente 
 * [Fast Async World Edir](plugins/fast_async_world_edit.md)
 * [World Guard](plugins/world_guard.md)
 * [Void Teleport](plugins/void_teleport.md)
-* [nlogin](plugins/nlogin.md)
+* [nLogin](plugins/nlogin.md)
 * [Protocol Lib](plugins/protocol_lib.md)
 * [Advance Teleport](plugins/advance_teleport.md)
