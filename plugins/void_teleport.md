@@ -15,6 +15,10 @@ Cada vez que un usuario caiga al vacio, volvera a paracer en el punto del spawn.
 
 ## Archivos de configuracion
 
+Cada vez que se modifica un archivo de configuracion se debe ejecutar el siguiente comando para que el servidor tome los cambios:
+
+* **/voidteleport reload**
+
 ### config.yml
 
 * **player-teleported:** Muestra un mensaje en el chat cada vez que el usuario es teletransportado. Se puede dejar en vacio para evitar enviar tantos mensajes al chat.
