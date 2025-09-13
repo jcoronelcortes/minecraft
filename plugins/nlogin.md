@@ -27,6 +27,12 @@ Cada vez que un usuario ingrese al servidor le aparecera un mensaje solicitando 
 
 * **/login [password]**
 
+## Cambio de password
+
+Para cambiar la password se debe ejecutar el siguiente comando:
+
+* **/changepassword [password_actual] [nueva_password]**
+
 ## Archivos de configuracion
 
 ### config.yml
@@ -37,3 +43,12 @@ Cada vez que un usuario ingrese al servidor le aparecera un mensaje solicitando 
 
 * **security.ip-limit.bypass.ips:** Security permite limitar el numero de cuentas que estan registradas a una misma IP. Este parametro permite definir la lista de IPs que ignoran esta limitacion, por lo cual, por seguridad se recomienda que sea una lista vacia ([]).
 
+### lang/messages_es.yml
+
+Para cambiar los colores de los mensajes de texto se puede usar los colores hexadeciamles usando la siguiente herramienta:
+
+https://htmlcolorcodes.com/
+
+Al agregar un color a un mensaje se texto, primero se debe colocar el simbolo '**&**' y luego el color. Por ejemplo '**&#8addfffMensaje de ejemplo**'
+
+* **success.login:** Mensaje que se muestra akl usuario una vez que se ha logeado con exito al servidor.
