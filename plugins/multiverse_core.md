@@ -42,6 +42,11 @@ Para definir el lugar donde seimpre aparecera el jugador al ser teletransportado
 
 Cada vez que se realizan cambios a los archivos del servidor se debe ejecutar el comando '**/mv reload**' para que el servidor tome los nuevos cambios realizados en los archivos de configuracion.
 
+### config.yml
+
+* **multiverse-configuration.fisrtspawnoverride:** Se debe dejar en **'false'** para que use el spawn definido en el plugin nLogin.
+* **multiverse-configuration.fisrtspawnworld:** Se debe definir el nombre del mundo donde queremos que haga el primer spawn.
+
 ### worlds.yml
 
 El archivo worlds.yml es el archivo de configuración principal del plugin Multiverse-Core para Minecraft, que almacena información detallada sobre cada mundo que has creado o importado en tu servidor. Este archivo guarda datos como los nombres de los mundos, sus coordenadas, el tipo de generación, la semilla utilizada, el bioma y la configuración de las entidades, entre otros aspectos. 

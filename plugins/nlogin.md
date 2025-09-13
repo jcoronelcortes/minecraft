@@ -33,6 +33,25 @@ Para cambiar la password se debe ejecutar el siguiente comando:
 
 * **/changepassword [password_actual] [nueva_password]**
 
+## Definir Spawn para el registro
+
+El siguiente comando permite definir el spawn para cuando el usuario se registra en el servidor.
+
+* **/nlogin spawn set register**
+
+## Definir Spawn para el login
+
+Los siguientes comandos permite definir el Spawn cuando el usuario hace el login en el servidor.
+
+* **/nlogin spawn set join**
+* **/nlogin spawn set firstjoin**
+
+## Definir Spawn para cuando muere el jugador
+
+Se deje colocar el jugador en el lugar que queremos que vuelvan a aparecer cuando mueran y ejecutar el siguiente comando:
+
+* **/nlogin spawn set respawn**
+
 ## Archivos de configuracion
 
 ### config.yml
