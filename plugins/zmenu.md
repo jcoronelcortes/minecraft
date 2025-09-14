@@ -32,11 +32,12 @@ Una vez encontrada la vcabeza a utilizar, se debe copiar la URL que esta en camp
 
 ## Modificacion del archivo de inventario
 
-El archivo yml del inventario esta dividio en grupos de bloques los cuales permiten agregar o modificar sus atributos. Los mas utiles son:
+El archivo yml del inventario esta dividido en grupos de bloques los cuales permiten agregar o modificar sus atributos. Los mas utiles son:
 
 * **name**: Nombre que tendra el casillero en el inventario. Se pueden usar colores hexadeciamles y simbolos UTF-8.
 * **lore:** Descripcion que aparecera al poner el mouse. Se pueden usar colores hexadecimales y simbolos UTF-8. Esta una lista de textos en json (-).
 * **url:** Si se desea utilizar cabezas con texturas, se debe reemplazar el campo **'material'** por **'url'** y copiar el valor del campo **'value'** en la opcion **'For Developers'** de la herramienta.
+* **commands:** Se define una lista de comandos que se ejecutara al hacer click. Por ejemplo **'- "warp mundo"'**, para teletransportar el usuario a ese mundo.
 
 ## Abrir el inventario
 
