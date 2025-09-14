@@ -20,7 +20,29 @@ Una vez creado el inventario, la herramienta web genera un archivo yml que debe 
 
 El archivo descargado, debe ser ubicado dentro de la carpeta **'inventories'** del plugin y ejecutar **'/zmenu reload'** para cargar el nuevo inventario.
 
+>**NOTA:** Este es el archivo que se debe editar para modificar la informacion del inventario que vera el usuario. 
 
+## Cabezas con texturas
+
+Al editar el invetario (siguiente seccion) se pueden utilizar cabezas con texturas, para hacer lo mas llamativo desde la siguiente pagina:
+
+https://minecraft-heads.com/custom-heads
+
+Una vez encontrada la vcabeza a utilizar, se debe copiar la URL que esta en campo **'value'** de la opcion **'For Developers'.**
+
+## Modificacion del archivo de inventario
+
+El archivo yml del inventario esta dividio en grupos de bloques los cuales permiten agregar o modificar sus atributos. Los mas utiles son:
+
+* **name**: Nombre que tendra el casillero en el inventario. Se pueden usar colores hexadeciamles y simbolos UTF-8.
+* **lore:** Descripcion que aparecera al poner el mouse. Se pueden usar colores hexadecimales y simbolos UTF-8. Esta una lista de textos en json (-).
+* **url:** Si se desea utilizar cabezas con texturas, se debe reemplazar el campo **'material'** por **'url'** y copiar el valor del campo **'value'** en la opcion **'For Developers'** de la herramienta.
+
+## Abrir el inventario
+
+Para abrir un nuevo inventario creado se debe ejecutar el comando:
+
+* **'/zmenu open zmenu:[nombre_inventario]'**
 
 ## Configuracion
 
