@@ -11,5 +11,13 @@ Una vez instalado el plugin, se deben eliminar los siguientes archivos y carpeta
 * Eliminar todos los archivos yml dentro de la carpeta **'events'**.
 * Dentro del archivo **config.yml**, dejar una lista vacia ([]) en la opcion **'register_commands'** y elminar todos los eventos por defecto (eliminar todo el contenido bajo el campo **Events**).
 
+## Recargar los cambios
+
+Para recargar los cambios en los archivos de configuracion se debe ejecutar el comando:
+
+* **/ce reload**
+
 ## Creacion de un comando
+
+
 
