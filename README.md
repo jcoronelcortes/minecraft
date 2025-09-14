@@ -26,3 +26,4 @@ Un UUID (Identificador Único Universal) es un código alfanumérico permanente 
 * [nLogin](plugins/nlogin.md)
 * [Protocol Lib](plugins/protocol_lib.md)
 * [Advance Teleport](plugins/advance_teleport.md)
+* [zMenu](plugins/zmenu.md)

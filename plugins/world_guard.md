@@ -11,9 +11,12 @@ Para obtener informacion de la region en la que estamos se debe ejecutar el coma
 * **/region info**
 >Despliega informacion de la region y una serie de menus que permiten activar o desactivar flags de la region.
 
+* **/region list**
+>Lista las regiones creadas que estan disponibles.
+
 ## Modificar las flags de la region
 
-Para modificar la flag de una region se debe activar la opcion ejecutando el comando **'/region flags'**.
+Para modificar la flag de una region se debe activar la opcion ejecutando el comando **'/region flag [nombe_region]'**.
 
 * **deny-message:** Permite modificar el mensaje que sale al destruir algo. Para que no salgan mensajes en el chat se puede definir el texto **'&6'**.
 
