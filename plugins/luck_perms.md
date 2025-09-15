@@ -6,6 +6,12 @@ https://www.spigotmc.org/resources/luckperms.28140/
 
 Todos los usuarios comienza con un grupo inicial por defecto que se llama **default**.
 
+## Variables (Placehorlders)
+
+Todas las variables disponibles de Luck Perms estan publicas en el siguiente link:
+
+https://luckperms.net/wiki/Placeholders
+
 ## Informacion del usuario
 
 Para obtener información del usuario en Luck Perms, se debe ejecutar el comando:
@@ -41,6 +47,13 @@ Se puede hacer una jerarquia de grupos, haciendo que un grupo herede de otro. Es
 Se puede asiganar permisos por grupo, pero si queremos asiganr todos los permisos a un grupo, se le debe asignar el permiso **'*'**. Esto se realiza con el comando:
 
 * **'/lp group \[nombre_grupo_asignar_permiso] permission set \*'**
+
+## Asignacion de un prefijo al grupo
+
+Se pueden asignar un prefijo al grupo para luego usarlo como variable en el Tab, ScoreBar o chat por ejemplo. Para asiganr un prefijo se debe ejecutar el siguiente comando:
+
+* **/lp group \[nombre_grupo] meta setprefix "\[prefijo]"**
+>**NOTA:** El prefijo debe estar entre comillas dobles ("). Tambien se pueden definir colores al prefijo, para que tanto el prefijo como el nombre del usuario aparescan en colores. Por ejemplo : **&c&lOWNER&f**.
 
 ## Archivos de configuracion
 
