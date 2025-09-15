@@ -12,6 +12,10 @@ Un UUID (Identificador Único Universal) es un código alfanumérico permanente 
 * [server.properties](servidor/server_properties.md)
 * [spigot.yml](servidor/spigot_yml.md)
 
+## Icono del servidor
+
+* [Configuracion del icono del servidor](servidor/icono_servidor.md)
+
 ## Comandos basicos de Minecraft
 * [Comandos basicos](basico/basico.md)
 
@@ -20,6 +24,9 @@ Un UUID (Identificador Único Universal) es un código alfanumérico permanente 
 * [Colores RGB con gradientes y hexadecimal](https://www.birdflop.com/resources/rgb/)
 
 ## Plugins
+
+Para confirmar que los plugins instalados funcionan correctamente, se debe ejecutar el comando **'/plugins'**.
+
 * [Multiverse-Core](plugins/multiverse_core.md)
 * [Skins Restorer](plugins/skins_restorer.md)
 * [Via Version](plugins/via_version.md)
@@ -36,3 +43,4 @@ Un UUID (Identificador Único Universal) es un código alfanumérico permanente 
 * [Luck Perms](plugins/luck_perms.md)
 * [Fly Plus](plugins/fly_plus.md)
 * [Placeholders API](plugins/placeholder_api.md)
+* [Mini MOTD](plugins/mini_motd.md)
