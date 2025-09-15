@@ -55,6 +55,19 @@ Se pueden asignar un prefijo al grupo para luego usarlo como variable en el Tab,
 * **/lp group \[nombre_grupo] meta setprefix "\[prefijo]"**
 >**NOTA:** El prefijo debe estar entre comillas dobles ("). tambien se pueden asginar colores hexadecial al prefijo usando [esta herramienta](https://www.birdflop.com/resources/rgb/).
 
+## Editor web
+
+Para crear y configurar lso grupos se puede usar el editor web. Para ingresar al editor web se debe seguir los siguientes pasos:
+
+* Ejecutar el comando **/lp editor**.
+* Hacer click en el link que aparece en la consola.
+* Copiar el comando que aparace en la venta web y ejecutarlo en la consola.
+
+### Seccion de grupos
+
+En la seccion de grupos se puede crear o configurar los grupos. Un punto importante que se debe confirmar es que **todos los grupos tengan la misma prioridad**. Esto se debe corregir, en caso de que algun grupo tenga una prioridad diferente.
+
+Una vez realizado los cambios se debe hacer click en el boton **Apply**, para que los cambios se reflejen inmediatamente en la configuracion del servidor.
 
 ### config.yml
 
