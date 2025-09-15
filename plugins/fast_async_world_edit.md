@@ -10,7 +10,7 @@ Para cargar un nuevo mundo que este en formato chematic dentro del servidor se d
 
 * Dejar el o los nuevos mundos en la carpeta **'chematics'** dentro del servidor.
 * Ejecutar el comando **'/chematic list'** y mostrara los nuevos mundos que se pueden cargar.
-* Ejecutar el comando (o seleccionar desde el menu del list) **'/chematic load [archivo_schem]'** para cargar el chematic.
+* Ejecutar el comando (o seleccionar desde el menu del list) **'/chematic load \[archivo_schem]'** para cargar el chematic.
 * Ejecutar el comando **/paste** para pegarlo.
 * 
 

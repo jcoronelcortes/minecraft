@@ -9,7 +9,7 @@ MV es la abreviatura de Multiverse,. El plugin permite a los administradores cre
 * **/mv info**
 >Se usa para visualizar información detallada sobre un mundo específico en el servidor, como su configuración y estado.
 
-* **/mv tp [nombre_mundo]**
+* **/mv tp \[nombre_mundo]**
 >Permite teletransportarse entre diferentes mundos dentro de un servidor. Una vez realizado el comando se debe ejecutar **'/mv confirm'** para confirmar la accion.
 
 
@@ -17,7 +17,7 @@ MV es la abreviatura de Multiverse,. El plugin permite a los administradores cre
 
 La carpeta con el nuevo mundo se debe dejar dentro de la carepta del servidor. Una vez completada la importancion de la carpeta se debe ejecutar el comando import.
 
-* **/mv import [nombre_carpeta_mundo] normal**
+* **/mv import \[nombre_carpeta_mundo] normal**
 >Se utiliza para integrar una carpeta de mundo existente (que ya tienes en tu sistema de archivos) a tu servidor Paper, permitiéndote tener múltiples mundos disponibles para los jugadores en tu servidor. Este comando requiere especificar su tipo (como "normal", "nether" o "end").
 
 
@@ -34,7 +34,7 @@ Para definir el lugar donde seimpre aparecera el jugador al ser teletransportado
 
 ## Crear un nuevo mundo
 
-* **/mv create [nombre_nuevo_mundo] normal**
+* **/mv create \[nombre_nuevo_mundo] normal**
 >Permite crear un nuevo mundo en tu servidor. Este comando requiere especificar un nombre para el mundo y su tipo (como "normal", "nether" o "end").
 
 
@@ -53,10 +53,10 @@ El archivo worlds.yml es el archivo de configuración principal del plugin Multi
 
 Las siguientes configuraciones son recomendadas para mundos de 'Spawn' o 'Lobby':
 
-* **[nombre_mundo].pvp:** Permite habilitar (true) o deshabilitar (false) que los jugadores se puedan pegar en el mundo.
+* **\[nombre_mundo].pvp:** Permite habilitar (true) o deshabilitar (false) que los jugadores se puedan pegar en el mundo.
 
-* **[nombre_mundo].allowWeather:** Permite habilitar (true) o deshabilitar (false) la lluvia y tormentas.
+* **\[nombre_mundo].allowWeather:** Permite habilitar (true) o deshabilitar (false) la lluvia y tormentas.
 
-* **[nombre_mundo].difficulty:** Establece la dificultad de un mundo específico en tu servidor de Minecraft. Este ajuste, que puede ser pacífico (peaceful), fácil (easy), normal o difícil (hard), determina el comportamiento de los mobs hostiles y los efectos de la dificultad en el juego para ese mundo en particular. 
+* **\[nombre_mundo].difficulty:** Establece la dificultad de un mundo específico en tu servidor de Minecraft. Este ajuste, que puede ser pacífico (peaceful), fácil (easy), normal o difícil (hard), determina el comportamiento de los mobs hostiles y los efectos de la dificultad en el juego para ese mundo en particular. 
 
-* **[nombre_mundo].hunger:** Establece si los jugadores pierden hambre (false) o no (true).
+* **\[nombre_mundo].hunger:** Establece si los jugadores pierden hambre (false) o no (true).

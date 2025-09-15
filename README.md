@@ -29,3 +29,5 @@ Un UUID (Identificador Único Universal) es un código alfanumérico permanente 
 * [zMenu](plugins/zmenu.md)
 * [Conditional Events](plugins/conditional_events.md)
 * [World Guard Events](plugins/world_guard_events.md)
+* [Luck Perms](plugins/luck_perms.md)
+* [Fly Plus](plugins/fly_plus.md)

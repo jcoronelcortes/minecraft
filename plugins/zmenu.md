@@ -44,7 +44,7 @@ El archivo yml del inventario esta dividido en grupos de bloques los cuales perm
 
 Para abrir un nuevo inventario creado se debe ejecutar el comando:
 
-* **'/zmenu open zmenu:[nombre_inventario]'**
+* **'/zmenu open zmenu:\[nombre_inventario]'**
 
 ## Configuracion
 

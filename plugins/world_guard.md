@@ -16,7 +16,7 @@ Para obtener informacion de la region en la que estamos se debe ejecutar el coma
 
 ## Modificar las flags de la region
 
-Para modificar la flag de una region se debe activar la opcion ejecutando el comando **'/region flag [nombe_region]'**.
+Para modificar la flag de una region se debe activar la opcion ejecutando el comando **'/region flag \[nombe_region]'**.
 
 * **deny-message:** Permite modificar el mensaje que sale al destruir algo. Para que no salgan mensajes en el chat se puede definir el texto **'&6'**.
 
@@ -37,7 +37,7 @@ Para proteger una region se deben seguir los siguientes pasos:
 * Alejarse a una ezquina en donde se vea los limites (derecha y izquierdo por ejemplo) de la region y ejecutar el comando **'/pos1'**.
 * Ir a la ezquina contraria (frente al punto en donde se ejecuto el pos1) y ejecutar **'/pos2'**.
 * Luego ejecutar el comando **'/expand vert'** para que extienda la seleccion de arriba hacia abajo.
-* Finalmente ejecutar **'/region define [nombre_nueva_region]'** para darle un nombre a la region protegida.
+* Finalmente ejecutar **'/region define \[nombre_nueva_region]'** para darle un nombre a la region protegida.
 
 ### Proteccion del Mundo
 
