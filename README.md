@@ -15,6 +15,10 @@ Un UUID (Identificador Único Universal) es un código alfanumérico permanente 
 ## Comandos basicos de Minecraft
 * [Comandos basicos](basico/basico.md)
 
+## Herramientas
+
+* [Colores RGB con gradientes y hexadecimal](https://www.birdflop.com/resources/rgb/)
+
 ## Plugins
 * [Multiverse-Core](plugins/multiverse_core.md)
 * [Skins Restorer](plugins/skins_restorer.md)
