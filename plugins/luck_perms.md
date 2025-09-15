@@ -53,9 +53,8 @@ Se puede asiganar permisos por grupo, pero si queremos asiganr todos los permiso
 Se pueden asignar un prefijo al grupo para luego usarlo como variable en el Tab, ScoreBar o chat por ejemplo. Para asiganr un prefijo se debe ejecutar el siguiente comando:
 
 * **/lp group \[nombre_grupo] meta setprefix "\[prefijo]"**
->**NOTA:** El prefijo debe estar entre comillas dobles ("). Tambien se pueden definir colores al prefijo, para que tanto el prefijo como el nombre del usuario aparescan en colores. Por ejemplo : **&c&lOWNER&f**.
+>**NOTA:** El prefijo debe estar entre comillas dobles ("). tambien se pueden asginar colores hexadecial al prefijo usando [esta herramienta](https://www.birdflop.com/resources/rgb/).
 
-## Archivos de configuracion
 
 ### config.yml
 
