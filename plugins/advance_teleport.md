@@ -30,6 +30,8 @@ Cada vez que se realiza un cambio en un archivo de configuracion se debe ejecuta
 
 * **teleport-to-spawn-on-first-join:** Esta opcion debe estar en **'false'** que se utilice la opcion del plugin nLogin.
 
+* **custom-warms-up:** Permite definir una lista propia de **warms-up** con su valor. Por ejemplo, se puede definir **sin-cooldown: 0**. Luego de esto, se puede asignar esta nueva configuracion como permiso a un grupo usando **'at.member.timer.\[nombre_custom]'**
+>Para asignar este custom a un grupo se debe usar el plugin de Luck Perms con el comando **'lp group \[nombre_grupo] permissions set at.member.timer.\[nombre_custom]'**
 
 ### custom-messages.yml
 

@@ -7,3 +7,14 @@ https://www.spigotmc.org/resources/flyplus-1-17-x-1-21-x-quality-fly-plugin-for-
 ## Instrucciones
 
 Para volar se debe ejecutar el comando **'/fly'** y ejecutar el mismo comando para desactivarlo.
+
+## Permisos
+
+* **fly.toggle:** Permite asignar el permiso de volar a un jugador.
+>Para asiganr el permiso de volar en un grupo usando Luck Perms se debe ejecutar el comando **''/lp group \[nombre_grupo_asignar_permiso] permission set fly.toggle'**
+
+## config.yml
+
+Cada vez que se realiza un cambio en el archivo de configuracion se debe ejecutar el comando **'/fly reload'** para que el servidor actualice los cambios.
+
+* **Enabled-Worlds:** Contiene la lista de mundos en los cuales se permitira ejecutar el comando **fly** para volar.
