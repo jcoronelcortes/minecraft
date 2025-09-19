@@ -13,4 +13,5 @@ Cada vez que se realiza un cambio en los archivos de configuracion, se debe ejec
 ### main.conf
 
 * **icon-enabled:** Debe tener el valor **false** si queremos que utilice el icono del servidor o **true** si queremos usar los iconos configurados en este plugin.
-* **max-players-enabled:** Debe tener el valor **false** si queremos que muestre el numero real de jugadores conectados o **true** si queremos usar el numero falso definido en la variable **max-players**.
+* **max-players-enabled:** Debe tener el valor **false** si queremos que muestre el número real de jugadores conectados o **true** si queremos usar el numero falso definido en la variable **max-players**.
+* **motds:** Permite definir el icono y los textos que aparaceran en la lista de servidores. Se puede configurar mas de una opcion. **IMPORTANTE:** El formato de los texto es en MiniMessage, para lo cual se puede usar el MiniMessage Viewer (https://webui.advntr.dev). tambien se pueden agregar simbolos unicode al texto (https://www.fileformat.info/info/unicode/category/So/index.htm).

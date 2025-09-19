@@ -38,7 +38,7 @@ Para proteger una region se deben seguir los siguientes pasos:
 * Ir a la ezquina contraria (frente al punto en donde se ejecuto el pos1) y ejecutar **'/pos2'**.
 * Luego ejecutar el comando **'/expand vert'** para que extienda la seleccion de arriba hacia abajo.
 * Finalmente ejecutar **'/region define \[nombre_nueva_region]'** para darle un nombre a la region protegida.
-
+/
 ### Proteccion del Mundo
 
 Existe una region que se llama **'\__global\__'** y para ver la información de esta region se puede ejecutar el comando **'/region info \__global\__'**. esta es la region asociada a todo el mundo y se puede utilizar para proteger el mundo.

@@ -23,6 +23,10 @@ Un UUID (Identificador Único Universal) es un código alfanumérico permanente 
 
 * [Colores RGB con gradientes y hexadecimal](https://www.birdflop.com/resources/rgb/)
 
+## Instrucciones para crear y configurar un mundo nuevo
+
+* [Instalacion de un mundo nuevo](basico/configuracion_mundo_nuevo.md)
+
 ## Plugins
 
 Para confirmar que los plugins instalados funcionan correctamente, se debe ejecutar el comando **'/plugins'**.
