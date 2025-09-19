@@ -48,3 +48,4 @@ Para confirmar que los plugins instalados funcionan correctamente, se debe ejecu
 * [Fly Plus](plugins/fly_plus.md)
 * [Placeholders API](plugins/placeholder_api.md)
 * [Mini MOTD](plugins/mini_motd.md)
+* [Easy Command Blocker](plugins/easy_command_bloquer.md)
