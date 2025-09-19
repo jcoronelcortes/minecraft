@@ -49,3 +49,6 @@ Para confirmar que los plugins instalados funcionan correctamente, se debe ejecu
 16. [Placeholders API](plugins/placeholder_api.md)
 17. [Mini MOTD](plugins/mini_motd.md)
 18. [Easy Command Blocker](plugins/easy_command_bloquer.md)
+19. [XConomy](plugins/xconomy.md)
+20. [Vault](plugins/vault.md)
+21. [Economy Shop GUI](plugins/economy_shop_gui.md)
