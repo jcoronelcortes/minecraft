@@ -53,3 +53,8 @@ Para confirmar que los plugins instalados funcionan correctamente, se debe ejecu
 20. [Vault](plugins/vault.md)
 21. [Economy Shop GUI](plugins/economy_shop_gui.md)
 22. [TAB](plugins/tab.md)
+
+
+# Utiles
+
+Para poder activar el scroll en el **screen** del servior se debe presionar **'Ctrl + A'**, luego **'Esc'** y finalmente moverse con las flechas. Para salir se  debe presionar **'Q'** o **'Esc'**. 
