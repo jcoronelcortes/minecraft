@@ -53,7 +53,13 @@ Para confirmar que los plugins instalados funcionan correctamente, se debe ejecu
 20. [Vault](plugins/vault.md)
 21. [Economy Shop GUI](plugins/economy_shop_gui.md)
 22. [TAB](plugins/tab.md)
+23. PENDIENTE [Item Edit](plugins/item_edit.md)
+24. PENDIENTE [Pet Blocks](plugins/pet_blocks.md)
 
+
+# Creacion de armaduras propias
+
+[Creacion de armaduras](instrucciones/armaduras_propias.md)
 
 # Utiles
 
