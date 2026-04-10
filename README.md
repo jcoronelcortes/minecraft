@@ -9,6 +9,9 @@ Un UUID (Identificador Único Universal) es un código alfanumérico permanente 
 
 
 ## Servidor
+
+El servidor utilizado es Paper y esta instalado en **'/home/papermc/minecraft'**
+
 * [server.properties](servidor/server_properties.md)
 * [spigot.yml](servidor/spigot_yml.md)
 
