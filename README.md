@@ -18,6 +18,7 @@ El servidor utilizado es Paper y esta instalado en **'/home/papermc/minecraft'**
 
 * [server.properties](servidor/server_properties.md)
 * [spigot.yml](servidor/spigot_yml.md)
+* [Jugadores: lista blanca y como agregar nuevos](servidor/jugadores.md)
 * [Respaldos y restauracion](servidor/respaldos.md)
 * [Actualizacion a Paper 26.3 (nov-2026)](servidor/actualizacion_26_3.md)
 
@@ -64,6 +65,7 @@ Para confirmar que los plugins instalados funcionan correctamente, se debe ejecu
 22. [TAB](plugins/tab.md)
 23. PENDIENTE [Item Edit](plugins/item_edit.md)
 24. PENDIENTE [Pet Blocks](plugins/pet_blocks.md)
+25. [Grief Prevention](plugins/grief_prevention.md)
 
 
 # Creacion de armaduras propias

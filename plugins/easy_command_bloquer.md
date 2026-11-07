@@ -8,6 +8,10 @@ https://www.spigotmc.org/resources/easycommandblocker-spigot-waterfall-velocity-
 >
 >En nov-2026 se quitaron **/login**, **/register** y **/changepassword** de las listas de comandos, porque esos comandos eran de nLogin.
 >Para recargar este plugin: **/ecb reload**.
+>
+>**use_commands_as_whitelist: true** significa que los jugadores que no son OP **solo** pueden usar los comandos de la lista **commands**.
+>Al instalar un plugin nuevo hay que agregar sus comandos (y sus alias) a esa lista, o los jugadores no podran usarlos.
+>En nov-2026 se agregaron los de GriefPrevention (para todos, en el grupo **default**) y los de casas, teletransporte e ItemEdit (grupo **constructor**).
 
 Al instalarlo, se recomienda borrar la configuracion por defecto de **'custom_commands_actions''**.
 

@@ -24,8 +24,12 @@ Jerarquia (cada grupo hereda los permisos del anterior):
 | vip+ | 46 permisos, entre ellos **easycommandblocker.tab.vip+**, **minecraft.command.gamemode** y varios de PetBlocks (**petblocks.***). Lista completa: **'/lp group vip+ permission info'** |
 | moderador | **easycommandblocker.tab.moderador** |
 | owner | **\*** (todos), **xconomy.user.balance.other** = true |
+| constructor | Hereda de **vip+**. Prefijo **"CONSTRUCTOR"** (prioridad 1000). Casas, teletransporte y back de AdvancedTeleport (**at.member.tpa**, **here**, **yes**, **no**, **cancel**, **list**, **block**, **unblock**, **toggletp**, **on**, **off**, **back**, **back.death**, **home**, **homes**, **sethome**, **delhome**, **setmainhome**, **movehome**, **warp**, **warps**, **spawn**), ItemEdit (**itemedit.itemedit.\***, **itemstorage.\***, **itemeditfood.\***, **itemeditequipment.\***) y **easycommandblocker.tab.constructor** |
 
-Jugadores: **nachitoultra** (default + vip+), **churros5235** (vip+), **Vicp360** (default).
+El grupo **constructor** se creo el 07-nov-2026 para los hijos: todo lo divertido, sin comandos de administracion que puedan borrar cosas.
+No se uso **at.member.\*** porque incluye comandos de administracion de AdvancedTeleport (**purge**, **import**, **reload**).
+
+Jugadores: **nachitoultra** (constructor), **churros5235** (constructor), **Vicp360** (default). Nadie es OP.
 
 Para revisar de donde sale un permiso de un jugador:
 
