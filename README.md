@@ -74,6 +74,10 @@ Para confirmar que los plugins instalados funcionan correctamente, se debe ejecu
 25. [Grief Prevention](plugins/grief_prevention.md)
 26. [Multiverse Inventories](plugins/multiverse_inventories.md)
 27. [Multiverse NetherPortals](plugins/multiverse_netherportals.md)
+28. [Prism](plugins/prism.md) (registro de acciones y rollback, con NBT-API)
+29. [OpenInv](plugins/open_inv.md)
+30. [Chunky](plugins/chunky.md)
+31. [BlueMap](plugins/bluemap.md) (mapa 3D en http://192.168.4.145:8100)
 
 
 # Creacion de armaduras propias

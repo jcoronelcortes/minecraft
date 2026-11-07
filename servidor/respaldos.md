@@ -51,3 +51,8 @@ Para hacer un respaldo todos los dias a las 4 de la mañana, agregar con **'sudo
 ```
 
 >**NOTA:** los respaldos quedan en el mismo disco que el servidor. Conviene copiar uno de vez en cuando a otro disco o a la nube.
+
+## Que no se respalda
+
+* **session.lock** de cada mundo.
+* **plugins/BlueMap/web/maps**: los mapas 3D dibujados por [BlueMap](../plugins/bluemap.md). Despues de restaurar, BlueMap los vuelve a dibujar solo.
