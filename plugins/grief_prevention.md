@@ -60,3 +60,12 @@ Cuando un jugador pone su primer cofre, se protege automaticamente un area peque
 nachitoultra, churros5235 y Vicp360 recibieron **10.000 bloques extra** cada uno (alcanza para unos 100 x 100), para proteger lo que ya tenian construido.
 
 >**IMPORTANTE:** GriefPrevention solo protege lo que esta dentro de un terreno. Lo construido fuera de un terreno se puede romper.
+
+## Mundos nuevos
+
+GriefPrevention reescribe su **config.yml** solo con los mundos cargados al arrancar. Si un mundo se importa con el servidor encendido (por ejemplo con **'/mv import'**), su linea en **Claims.Mode** puede desaparecer. Despues de importar un mundo:
+
+* Agregar la linea en **Mode** (por ejemplo **'ooo_nether: Disabled'**).
+* Ejecutar **'/gpreload'** (no hace falta reiniciar).
+
+Los mundos del [mapa de Hora de Aventuras](../servidor/hora_de_aventuras.md) (ooo, ooo_nether y ooo_the_end) estan en **Disabled**.
