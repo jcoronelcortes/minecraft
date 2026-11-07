@@ -78,6 +78,8 @@ El mapa es de una version muy antigua, por lo que se tradujeron **57 comandos** 
 * **'difficulty 0/1'** → **'difficulty peaceful/easy'**.
 * En multimundo se usa **'@a[distance=..100]'** o **'execute in minecraft:ooo'**, para no afectar a jugadores en otros mundos.
 
+>**IMPORTANTE:** En un bloque de comandos, **@a** incluye a **todos los jugadores del servidor**, esten en el mundo que esten. El mapa se hizo para un solo jugador y tenia 11 bloques con **@a** (el boton de inicio teletransportaba a todos y un bloque de la carcel vaciaba el inventario de todos). Todos se cambiaron a **'@a[distance=..100]'**, que solo incluye a los jugadores cercanos del mismo mundo (script **'limitar-arroba-a-ooo.sh'**, 07-nov-2026).
+
 ### Traduccion al español
 
 Todo el mapa quedo en español:
@@ -125,6 +127,7 @@ El mapa original de 2012 cambiaba al jugador de lugar con **/spawnpoint** y lueg
 | instalar-nether-end-ooo.sh | Instala la Nocheosfera y el Espacio Grumoso |
 | puntos_control_ooo.py | Crea los 14 spawns, los 2 warps y el death-management de AdvancedTeleport |
 | arreglar-reapariciones.txt | Comandos que corrigen los bloques de comandos de reaparicion |
+| limitar-arroba-a-ooo.sh | Hace que los bloques con @a afecten solo a los jugadores cercanos |
 | dar-objetos-ooo.sh | Entrega los objetos tematicos |
 
 Todos los scripts hacen un respaldo antes de cambiar algo. Para volver atras: **'sudo mc-restore.sh ultimo'** (ver [Respaldos](respaldos.md)).
