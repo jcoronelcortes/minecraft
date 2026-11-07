@@ -4,7 +4,10 @@ Es un plugin o complemento para servidores que permite a los administradores blo
 
 https://www.spigotmc.org/resources/easycommandblocker-spigot-waterfall-velocity-1-8-1-21-8.101752/
 
->**NOTA:** Este plugin tiene como dependencia la instalacion del plugin [Protocol Lib](protocol_lib.md).
+>**NOTA:** Este plugin puede usar [Protocol Lib](protocol_lib.md) de forma opcional, pero no lo necesita (funciona sin el desde nov-2026).
+>
+>En nov-2026 se quitaron **/login**, **/register** y **/changepassword** de las listas de comandos, porque esos comandos eran de nLogin.
+>Para recargar este plugin: **/ecb reload**.
 
 Al instalarlo, se recomienda borrar la configuracion por defecto de **'custom_commands_actions''**.
 

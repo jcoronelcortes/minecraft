@@ -1,5 +1,18 @@
 # nLogin
 
+> **RETIRADO el 07-nov-2026.** El servidor paso a modo online (solo cuentas premium), donde Mojang verifica a cada jugador
+> y no hace falta registrarse con contraseña. El jar quedo en **'/home/papermc/plugins-retirados/'** y sus datos en
+> **'plugins/nLogin/'**.
+>
+> **Motivo:** con **online-mode=true** y nLogin aceptando jugadores no premium, el ID de los jugadores cuyo nombre existe
+> como cuenta premium cambiaba durante el ingreso: el servidor usaba primero el ID de Mojang y despues nLogin lo cambiaba
+> al ID offline. Por eso LuckPerms los expulsaba con
+> *"Permissions data for your user was not loaded during the pre-login stage"*.
+> Los ajustes de nLogin para controlar el ID (**unique-id-type**, etc.) son de la version de pago.
+> Mas detalles en [Actualizacion a Paper 26.3](../servidor/actualizacion_26_3.md).
+>
+> Lo que sigue queda como referencia.
+
 nLogin es un plugin de Minecraft para servidores no premium que funciona como un sistema de autenticación de usuarios, permitiéndoles registrarse y acceder a un servidor usando una contraseña. Su propósito es asegurar el servidor al:
 
 * Proteger cuentas de acceso no autorizado.

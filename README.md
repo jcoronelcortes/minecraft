@@ -12,8 +12,14 @@ Un UUID (Identificador Único Universal) es un código alfanumérico permanente 
 
 El servidor utilizado es Paper y esta instalado en **'/home/papermc/minecraft'**
 
+* **Version:** Paper 26.3 (build 244), con Java 25.
+* **Modo:** online (**solo cuentas premium de Microsoft**). Desde el 07-nov-2026 no se usa nLogin: Mojang verifica a cada jugador.
+* El servidor corre como servicio de systemd: **'sudo systemctl start|stop|restart minecraftserver'**.
+
 * [server.properties](servidor/server_properties.md)
 * [spigot.yml](servidor/spigot_yml.md)
+* [Respaldos y restauracion](servidor/respaldos.md)
+* [Actualizacion a Paper 26.3 (nov-2026)](servidor/actualizacion_26_3.md)
 
 ## Icono del servidor
 
@@ -41,8 +47,8 @@ Para confirmar que los plugins instalados funcionan correctamente, se debe ejecu
 5. [Fast Async World Edir](plugins/fast_async_world_edit.md)
 6. [World Guard](plugins/world_guard.md)
 7. [Void Teleport](plugins/void_teleport.md)
-8. [nLogin](plugins/nlogin.md)
-9. [Protocol Lib](plugins/protocol_lib.md)
+8. RETIRADO [nLogin](plugins/nlogin.md)
+9. RETIRADO [Protocol Lib](plugins/protocol_lib.md)
 10. [Advance Teleport](plugins/advance_teleport.md)
 11. [zMenu](plugins/zmenu.md)
 12. [Conditional Events](plugins/conditional_events.md)

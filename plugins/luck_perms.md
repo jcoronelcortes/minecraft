@@ -6,6 +6,31 @@ https://www.spigotmc.org/resources/luckperms.28140/
 
 Todos los usuarios comienza con un grupo inicial por defecto que se llama **default**.
 
+>**IMPORTANTE:** LuckPerms guarda los grupos y permisos de cada jugador por su **ID (UUID)**. Si el servidor cambia entre
+>modo online y offline, el ID de los jugadores cambia y pierden sus rangos (quedan guardados con el ID anterior).
+>Con nLogin y **online-mode=true**, LuckPerms expulsaba a algunos jugadores al entrar; por eso se retiro nLogin
+>(ver [nLogin](nlogin.md)).
+
+## Grupos actuales (nov-2026)
+
+Jerarquia (cada grupo hereda los permisos del anterior):
+
+**default → vip → vip+ → moderador → owner**
+
+| Grupo | Permisos propios |
+|---|---|
+| default | **xconomy.user.balance.other** = false (no ve el dinero de otros), permisos **skulls.*** (del plugin Skulls, ya no instalado) |
+| vip | **fly.toggle**, **at.member.timer.sin-cooldown**, **easycommandblocker.tab.vip** |
+| vip+ | 46 permisos, entre ellos **easycommandblocker.tab.vip+**, **minecraft.command.gamemode** y varios de PetBlocks (**petblocks.***). Lista completa: **'/lp group vip+ permission info'** |
+| moderador | **easycommandblocker.tab.moderador** |
+| owner | **\*** (todos), **xconomy.user.balance.other** = true |
+
+Jugadores: **nachitoultra** (default + vip+), **churros5235** (vip+), **Vicp360** (default).
+
+Para revisar de donde sale un permiso de un jugador:
+
+* **'/lp user \[nombre_usuario] permission check \[permiso]'**
+
 ## Variables (Placehorlders)
 
 Todas las variables disponibles de Luck Perms estan publicas en el siguiente link:

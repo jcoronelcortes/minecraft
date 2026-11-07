@@ -28,7 +28,11 @@ Cada vez que se realiza un cambio en un archivo de configuracion se debe ejecuta
 
 * **cost-amount:** Monto en dinero que se le cobrara a los jugadores por teletransportarse.
 
-* **teleport-to-spawn-on-first-join:** Esta opcion debe estar en **'false'** que se utilice la opcion del plugin nLogin.
+* **teleport-to-spawn-on-first-join:** Lleva a los jugadores nuevos al spawn principal la primera vez que entran. **Valor actual: 'true'** (antes estaba en 'false' porque lo hacia nLogin, que ya no se usa).
+
+* **teleport-to-spawn-on-every-join:** Lleva a los jugadores al spawn principal cada vez que entran. **Valor actual: 'true'** (reemplaza al spawn de entrada de nLogin). El spawn principal es **world** en 125.5, 64, 183.9.
+
+* **death-management.default:** Donde reaparece el jugador al morir. **Valor actual: 'bed;spawn'** (en su cama y, si no tiene, en el spawn).
 
 * **custom-warms-up:** Permite definir una lista propia de **warms-up** con su valor. Por ejemplo, se puede definir **sin-cooldown: 0**. Luego de esto, se puede asignar esta nueva configuracion como permiso a un grupo usando **'at.member.timer.\[nombre_custom]'**
 >Para asignar este custom a un grupo se debe usar el plugin de Luck Perms con el comando **'lp group \[nombre_grupo] permissions set at.member.timer.\[nombre_custom]'**

@@ -44,7 +44,7 @@ Cada vez que se realizan cambios a los archivos del servidor se debe ejecutar el
 
 ### config.yml
 
-* **multiverse-configuration.fisrtspawnoverride:** Se debe dejar en **'false'** para que use el spawn definido en el plugin nLogin.
+* **multiverse-configuration.fisrtspawnoverride:** Se debe dejar en **'false'** para que use el spawn de AdvancedTeleport (antes lo hacia nLogin, que ya no se usa).
 * **multiverse-configuration.fisrtspawnworld:** Se debe definir el nombre del mundo donde queremos que haga el primer spawn.
 
 ### worlds.yml

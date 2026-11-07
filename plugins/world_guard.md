@@ -4,6 +4,10 @@ WorldGuard es un plugin para servidores de Minecraft que permite a los administr
 
 https://dev.bukkit.org/projects/worldguard
 
+>**NOTA (nov-2026):** se usa **WorldGuard 7.0.20**. La 7.0.21 no arranca con FastAsyncWorldEdit 2.16.2
+>(*NoSuchMethodError: YAMLProcessor*), porque usa una funcion de WorldEdit que FAWE todavia no tiene.
+>Cuando salga una version de FAWE posterior a la 2.16.2 se puede volver a probar la 7.0.21.
+
 ## Informacion de la region
 
 Para obtener informacion de la region en la que estamos se debe ejecutar el comando:
