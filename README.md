@@ -26,6 +26,7 @@ El servidor utilizado es Paper y esta instalado en **'/home/papermc/minecraft'**
 ## Hora de Aventuras
 
 * [Mascotas, skins, objetos y el mapa Tierra de Ooo (nov-2026)](servidor/hora_de_aventuras.md)
+* [Documentacion completa del mapa: planes, traducciones y comandos](hora_de_aventuras/README.md)
 
 ## Icono del servidor
 

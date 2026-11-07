@@ -1,6 +1,7 @@
 # Hora de Aventuras en el servidor
 
 Contenido de la serie **Hora de Aventuras** (Adventure Time) instalado el 07-nov-2026 para que jueguen los niños.
+La documentacion completa (planes, textos traducidos y comandos) esta en [la carpeta del mapa](../hora_de_aventuras/README.md).
 Los scripts usados estan en el computador en **'~/Escritorio/projecto-minecraft/hora-de-aventuras'** (archivo **LEEME.md**).
 
 ## 1. Mascotas (PetBlocks)
