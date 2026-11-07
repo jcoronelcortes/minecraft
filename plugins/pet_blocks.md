@@ -7,5 +7,13 @@ https://www.spigotmc.org/resources/petblocks-gui-programmable-geysermc-custom-mo
 # Comandos
 
 * **/petblock rename \[nombre] :** Cambia el nombre de la mascota
-* 
+* **/mascotas :** Abre el menu de mascotas.
 
+## Menu de Hora de Aventuras
+
+En **/mascotas** → **Apariencia** → **Hora de Aventuras** hay 10 personajes de la serie. Ver [Hora de Aventuras](../servidor/hora_de_aventuras.md).
+
+* Archivo: **'plugins/PetBlocks/gui/petblocks_skins_ooo_menu.yml'**.
+* Permiso: **'petblocks.gui.petblocks_skins_ooo_menu'** (grupo vip+).
+* Recargar los menus: **'/petblocksgui reload'**.
+>**NOTA:** No usar el componente **swing_animation** en las mascotas: en Paper 26.3 dejo una mascota sin su bloque.

@@ -100,3 +100,9 @@ Una vez realizado los cambios se debe hacer click en el boton **Apply**, para qu
 
 ### config.yml
 
+## Permisos del grupo default para AdvancedTeleport
+
+Para que los jugadores reaparezcan en los puntos de control del [mapa de Hora de Aventuras](../servidor/hora_de_aventuras.md):
+
+* **'/lp group default permission set at.member.spawn.\* true'**
+* **'/lp group default permission set at.member.warp.\* true'**

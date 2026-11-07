@@ -21,6 +21,11 @@ El servidor utilizado es Paper y esta instalado en **'/home/papermc/minecraft'**
 * [Jugadores: lista blanca y como agregar nuevos](servidor/jugadores.md)
 * [Respaldos y restauracion](servidor/respaldos.md)
 * [Actualizacion a Paper 26.3 (nov-2026)](servidor/actualizacion_26_3.md)
+* [Mundos del servidor](servidor/mundos.md)
+
+## Hora de Aventuras
+
+* [Mascotas, skins, objetos y el mapa Tierra de Ooo (nov-2026)](servidor/hora_de_aventuras.md)
 
 ## Icono del servidor
 
@@ -63,9 +68,11 @@ Para confirmar que los plugins instalados funcionan correctamente, se debe ejecu
 20. [Vault](plugins/vault.md)
 21. [Economy Shop GUI](plugins/economy_shop_gui.md)
 22. [TAB](plugins/tab.md)
-23. PENDIENTE [Item Edit](plugins/item_edit.md)
-24. PENDIENTE [Pet Blocks](plugins/pet_blocks.md)
+23. [Item Edit](plugins/item_edit.md)
+24. [Pet Blocks](plugins/pet_blocks.md)
 25. [Grief Prevention](plugins/grief_prevention.md)
+26. [Multiverse Inventories](plugins/multiverse_inventories.md)
+27. [Multiverse NetherPortals](plugins/multiverse_netherportals.md)
 
 
 # Creacion de armaduras propias

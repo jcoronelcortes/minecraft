@@ -55,3 +55,10 @@ Cada vez que se realiza un cambio a los archivos de configuracion, se debe ejecu
 ### config.json
 
 * **generateDefaultFile:** Activa (true) o desactiva (false) la generacion de los archivos por defecto.
+
+## Menu de warps actual
+
+El menu **'/warps'** (**'inventories/warps.yml'**) tiene, entre otros, estos botones:
+
+* **Casillero 16 (pasto):** mundo **creativo** (**'warp creativo'**).
+* **Casillero 20 (pastel):** **Tierra de Ooo**, el [mapa de Hora de Aventuras](../servidor/hora_de_aventuras.md) (**'warp ooo'**).

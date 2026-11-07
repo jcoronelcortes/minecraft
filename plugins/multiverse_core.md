@@ -46,6 +46,7 @@ Cada vez que se realizan cambios a los archivos del servidor se debe ejecutar el
 
 * **multiverse-configuration.fisrtspawnoverride:** Se debe dejar en **'false'** para que use el spawn de AdvancedTeleport (antes lo hacia nLogin, que ya no se usa).
 * **multiverse-configuration.fisrtspawnworld:** Se debe definir el nombre del mundo donde queremos que haga el primer spawn.
+* **enforce-respawn-at-world-spawn:** **Valor actual: 'false'**. Si esta en 'true', Multiverse ignora el **/spawnpoint** y la cama, y siempre lleva al spawn del mundo. Se cambio a 'false' el 07-nov-2026 para el [mapa de Hora de Aventuras](../servidor/hora_de_aventuras.md).
 
 ### worlds.yml
 
@@ -60,3 +61,14 @@ Las siguientes configuraciones son recomendadas para mundos de 'Spawn' o 'Lobby'
 * **\[nombre_mundo].difficulty:** Establece la dificultad de un mundo específico en tu servidor de Minecraft. Este ajuste, que puede ser pacífico (peaceful), fácil (easy), normal o difícil (hard), determina el comportamiento de los mobs hostiles y los efectos de la dificultad en el juego para ese mundo en particular. 
 
 * **\[nombre_mundo].hunger:** Establece si los jugadores pierden hambre (false) o no (true).
+
+## Cambiar propiedades de un mundo
+
+* **/mv modify \[nombre_mundo] set \[propiedad] \[valor]**
+>Por ejemplo: **'/mv modify ooo set gamemode adventure'**, **'/mv modify ooo set pvp false'**, **'/mv modify ooo set difficulty easy'**.
+
+## Copiar un mundo desde otro servidor (Paper 26.3)
+
+En Paper 26.3 los mundos estan en **'world/dimensions/minecraft/\[nombre_mundo]'**. Al copiar uno se debe borrar **'data/paper/metadata.dat'** y **'session.lock'** antes de **'/mv import'**.
+
+Para un Nether o End: **'/mv import \[nombre]_nether nether'** o **'/mv import \[nombre]_the_end the_end'**. Ver [Multiverse-NetherPortals](multiverse_netherportals.md) y la lista de [mundos](../servidor/mundos.md).

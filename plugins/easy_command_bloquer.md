@@ -28,3 +28,10 @@ Se debe ejecutar el comando **/lp reloadconfig** para que el servidor tome los c
 El archivo de configuracion trae por defecto el grupo **default**, pero se pueden agregar los grupos creados en Luck Perms para asignar el permniso de ejecutar comandos por grupos. Cada vez que se agrega un grupo, se debe ejecutar el siguiente comando para dar el permiso en Luck perms:
 
 * **/lp group \[nombre_grupo] permissions set easycommandblocker.tab.\[nombre_grupo]**
+
+## Comandos agregados (nov-2026)
+
+Como la lista funciona como lista blanca, cada plugin nuevo necesita sus comandos en **'commands'**. Se agregaron:
+
+* **/skin** y **/skins** (SkinsRestorer).
+* Los comandos de GriefPrevention, AdvancedTeleport e ItemEdit (pestaña del grupo constructor).

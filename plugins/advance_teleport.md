@@ -34,6 +34,15 @@ Cada vez que se realiza un cambio en un archivo de configuracion se debe ejecuta
 
 * **death-management.default:** Donde reaparece el jugador al morir. **Valor actual: 'bed;spawn'** (en su cama y, si no tiene, en el spawn).
 
+* **death-management.\[mundo]:** Reaparicion propia de un mundo. Valores actuales del [mapa de Hora de Aventuras](../servidor/hora_de_aventuras.md):
+  * **ooo: spawn** (el punto de control mas cercano).
+  * **ooo_nether: warp:ooo_carcel**
+  * **ooo_the_end: warp:ooo_portal_secreto**
+
+* **use-spawn:** **'true'**.
+
+* **teleport-to-nearest-spawnpoint:** **'true'**. Al reaparecer con **spawn**, lleva al spawn mas cercano del mundo en vez del spawn principal.
+
 * **custom-warms-up:** Permite definir una lista propia de **warms-up** con su valor. Por ejemplo, se puede definir **sin-cooldown: 0**. Luego de esto, se puede asignar esta nueva configuracion como permiso a un grupo usando **'at.member.timer.\[nombre_custom]'**
 >Para asignar este custom a un grupo se debe usar el plugin de Luck Perms con el comando **'lp group \[nombre_grupo] permissions set at.member.timer.\[nombre_custom]'**
 
@@ -45,3 +54,8 @@ https://webui.advntr.dev/
 
 * **Common.prefixes:** Permite definir el prefijo o primer texto que tendra cada mensaje que se mostrara en el chat.
 
+## Spawns y warps del mapa de Hora de Aventuras
+
+En el mundo **ooo** hay 14 spawns (puntos de control, nombres **ooo_\***) y 2 warps (**ooo_carcel** y **ooo_portal_secreto**). Se crearon con el script **'puntos_control_ooo.py'** directamente en **'data.db'** con el servidor apagado. La lista con coordenadas esta en [Hora de Aventuras](../servidor/hora_de_aventuras.md).
+
+>**NOTA:** Los jugadores necesitan permiso para reaparecer en los spawns: **'lp group default permission set at.member.spawn.\* true'** (y **at.member.warp.\*** para los warps). Sin esto, AdvancedTeleport no los lleva al punto de control.
